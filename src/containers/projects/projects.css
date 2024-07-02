@@ -3,10 +3,21 @@
     flex-direction: column;
 }
 .port__projects-heading{
-text-align: center;
+display: flex;
+justify-content: space-between;
  width: 100%;
  margin-bottom: 1rem;
     
+}
+.port__projects-heading button{
+    background: var(--color-main);
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+   
 }
 .port__projects-heading h1{
     font-size: 64px;
@@ -25,8 +36,19 @@ text-align: center;
         flex-direction: column;
     }
 }
+@media  screen and (max-width: 700px) {
+    .port__projects-heading{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media  screen and (max-width: 375px) {
     .port__projects-heading h1{
         font-size: 32px;
+        margin-bottom: 0.5rem;
+    }
+    .port__projects-heading button{
+        font-size: 14px;margin-bottom: 1rem;
     }
 }
