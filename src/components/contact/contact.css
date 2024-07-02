@@ -1,0 +1,28 @@
+.port__contact{
+    display: flex;
+    flex-direction: column;
+}
+.port__contact-heading{
+    display: flex;
+    
+}
+.port__contact-heading h1{
+    font-size: 64px;
+    margin-bottom: 1rem;
+}
+.port__contact-links p{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.port__contact-links a:hover{
+    color: var(--color-main);
+    transition: color 0.3s ease-in-out ;
+}
+@media screen and (max-width: 450px){
+    .port__contact-heading h1{
+        font-size: 48px;
+    }
+    .port__contact-links p{
+        font-size: 16px;
+    }
+}
