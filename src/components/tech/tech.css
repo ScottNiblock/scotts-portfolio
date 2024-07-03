@@ -38,10 +38,17 @@
     
 }
 @media screen and (max-width: 435px){
+    .port__tech-heading{
+        text-align: center;
+        padding: 0 1.5rem 0 1.5rem;
+    }
     .port__tech-heading h1{
         font-size: 36px;
     }
     .port__tech-container{
         flex-direction: column;
+    }
+    .port__tech{
+        margin: 2rem;
     }
 }

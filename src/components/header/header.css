@@ -53,6 +53,7 @@
 @media screen and (max-width: 750px ){
     .port__header{
         flex-direction: column;
+        padding-left: 1rem;
     }
     .port__header-content h1{
         font-size: 48px ;

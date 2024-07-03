@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className='port__contact section__padding' id='contact'>
+    <div className='port__contact section__padding gradient__bg' id='contact'>
       <div className='port__contact-heading'>
         <h1 className='gradient__text'>Contact Me</h1>
       </div>

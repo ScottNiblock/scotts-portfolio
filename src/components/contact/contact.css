@@ -1,6 +1,8 @@
 .port__contact{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
 }
 .port__contact-heading{
     display: flex;
@@ -18,11 +20,16 @@
     color: var(--color-main);
     transition: color 0.3s ease-in-out ;
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 550px){
+    .port__contact{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .port__contact-heading h1{
         font-size: 48px;
     }
     .port__contact-links p{
         font-size: 16px;
+
     }
 }
