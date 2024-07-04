@@ -23,7 +23,7 @@
      width: 0;
     padding: 1rem;
     font-size: 64px;
-    animation: typing 5s forwards;
+    animation: typing 3s forwards;
 }
 .port__header-content_bio{
     display: flex;
@@ -43,6 +43,25 @@
 }
 .port__header-content_bio p:last-of-type{
     margin: 0;
+}
+.port__header-other{
+    margin-top: 1rem;
+}
+.port__header-other button{
+    background: var(--color-footer);
+    border: 1px solid var(--color-main);
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--color-main);
+   cursor: pointer;
+}
+.port__header-other button:hover{
+    background: var(--color-main);
+    color: var(--color-footer);
+    border: 1px solid var(--color-footer);
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
 @keyframes typing{

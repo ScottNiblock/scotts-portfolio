@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    position: fixed;
+    background: var(--color-bg);
+    width: 100%;
 }
 .port__navbar-links{
     display: flex;
@@ -13,6 +16,8 @@
     font-weight: 500;
     margin: 0 2rem;
     font-size: 18px;
+    padding: .5rem;
+    border-radius: 5px;
     cursor: pointer;
 }
 .port__navbar-menu{
@@ -38,10 +43,13 @@
 }
 .port__navbar-menu_links a {
     margin: 1rem 0;
+    padding: .5rem;
+    border-radius: 5px;
 }
 .port__navbar-menu_links a:hover,
 .port__navbar-links a:hover{
     color: var(--color-main);
+    background: var(--color-footer);
     transition: color 0.3s ease-in-out;
 }
 @media screen and (max-width: 750px){

@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 :root{
-  --font-family: 'Ubuntu', sans-serif;
+  --font-family: "Source Code Pro", monospace;
   --color-bg:  #212020;
-  --gradient-bar: linear-gradient(90deg, rgba(251, 139, 35, 1) 1%, rgba(255, 235, 59, 1) 97%);
-  --gradient-text: linear-gradient(90deg, rgba(251, 139, 35, 1) 1%, rgba(255, 235, 59, 1) 97%);
-  --color-main:  #FB8B23;
+  --gradient-bar: linear-gradient(90deg, rgba(61, 237, 151, 1) 0%, rgba(130, 238, 226, 1) 100%);
+  --gradient-text: linear-gradient(90deg, rgba(61, 237, 151, 1) 0%, rgba(130, 238, 226, 1) 100%);
+  --color-main:  #3ded97;
   --color-footer: rgba(69, 70, 72, 1);
 }
 
