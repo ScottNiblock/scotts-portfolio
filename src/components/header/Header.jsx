@@ -16,7 +16,7 @@ const Header = () => {
             <p>Thank you for visiting, and I hope you enjoy your stay!</p>
         </div>
         <div className='port__header-other'>
-          <a href='/Scott_Niblock_SWE_Resume .pdf' download><button type='button'>Download CV <FaDownload/></button></a>
+          <a href='/Scott_Niblock_SWE_Resume.pdf' download><button type='button'>Download CV <FaDownload/></button></a>
         </div>
       </div>
     </div>
