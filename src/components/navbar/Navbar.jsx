@@ -4,7 +4,6 @@ import { RiCloseLine, RiMenu3Line } from 'react-icons/ri'
 
 const Navbar = () => {
     const [prevScrollY, setPrevScrollY] = useState(0);
-
     useEffect(() => {
       const handleScroll = () => {
         const currentScrollY = window.scrollY;
@@ -43,7 +42,7 @@ const Navbar = () => {
             <Menu />
         </div>
         <div className='port__navbar-menu'>
-            {toggleMenu ? <RiCloseLine  color='#FB8B23' size={27} onClick={() => setToggleMenu(false)}/> : <RiMenu3Line color='#FB8B23' size={27} onClick={() => setToggleMenu(true)}/>}
+            {toggleMenu ? <RiCloseLine  color='#3ded97' size={27} onClick={() => setToggleMenu(false)}/> : <RiMenu3Line color='#3ded97' size={27} onClick={() => setToggleMenu(true)}/>}
             {toggleMenu && (
                 <div className='port__navbar-menu_links scale-up-center'>
                     <Menu />

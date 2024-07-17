@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import gpt3 from '../../assets/gpt3.png'
+import ytclone from '../../assets/ytclone.png'
 import construction from '../../assets/construction.jpeg'
 import {Project} from '../../components'
 import { FaGithub } from "react-icons/fa";
@@ -14,7 +15,7 @@ const Projects = () => {
     </div>
     <div className='port__projects-container'>
       <Project imgUrl={gpt3} title="GPT-3 Website" description="A website based on OpenAI's GPT-3 that demonstrates aesthetic and responsive web design. Content is intentionally redundant with some omitted functionality" webUrl='https://gpt3sn.scottniblock.com/' />
-      <Project imgUrl={construction} title="Coming Soon" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" webUrl='https://example.com/' />
+      <Project imgUrl={ytclone} title="Youtube Clone" description="This project is a YouTube clone built using React, MUI, and RapidAAPI. It replicates the core features of YouTube, including video search, display, and channel details, providing a seamless user experience." webUrl='https://yt-clone-scottniblock-com.preview-domain.com/' />
       <Project imgUrl={construction} title="Coming Soon" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" webUrl='https://example.com/' />
     </div>
     </div>
