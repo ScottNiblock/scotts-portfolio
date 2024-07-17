@@ -2,6 +2,7 @@ import React from 'react'
 import './project.css'
 const Project = ({imgUrl, title, description, webUrl}) => {
   return (
+    <a href={webUrl}>
     <div className='port__project-container'>
       <div className='port__project-image'>
       <img  src={imgUrl} alt='project'/>
@@ -12,6 +13,7 @@ const Project = ({imgUrl, title, description, webUrl}) => {
         <a href={webUrl}>See Full Website</a>
       </div>
     </div>
+    </a>
   )
 }
 
